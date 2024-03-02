@@ -17,6 +17,7 @@ FORMAT_OPTIONS =
 FILTERS += --filter pandoc-crossref
 ###
 PDF_ENGINE += --pdf-engine=lualatex --pdf-engine-opt=--shell-escape
+PDF_OPTIONS += --number-sections --variable mainfont="Liberation Serif" --variable sansfont="Liberation Sans"
 OPTIONS += --number-sections
 BIB_OPTIONS = --citeproc
 
